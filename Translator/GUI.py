@@ -1,7 +1,6 @@
 import tkinter as tk
 from tkinter import ttk
 import speech_recognition as sr
-import translator as tr
 
 listener = sr.Recognizer()
 

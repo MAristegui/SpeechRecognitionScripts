@@ -1,9 +1,9 @@
 import tkinter as tk
 from tkinter import ttk
 import speech_recognition as sr
-import translator as tr
 import pyaudio
 import pyttsx3
+import Main as tr
 
 listener = sr.Recognizer()
 engine = pyttsx3.init()
@@ -21,7 +21,7 @@ def start_recording():
 
 # Crear gui principal
 gui = tk.Tk()
-gui.title("Traductor de audio")
+gui.title("VoiceChatGPT")
 gui.config(bg="#F0F0F0")  
 
 # Crear marco para menus desplegables
